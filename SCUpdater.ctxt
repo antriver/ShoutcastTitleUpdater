@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=scserver\ scpass\ SLOFloc
+comment0.target=SCUpdater(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.params=
+comment1.target=void\ run()
+comment2.params=
+comment2.target=void\ updateTitleMaybe()
+comment3.params=
+comment3.target=java.lang.String\ getSLOFContents()
+comment4.params=title
+comment4.target=java.lang.String\ convertSLOFText(java.lang.String)
+comment5.params=title
+comment5.target=void\ setShoutcastTitle(java.lang.String)
+numComments=6
