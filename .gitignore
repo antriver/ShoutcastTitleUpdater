@@ -1,5 +1,6 @@
 #java specific
 *.class
+*.ctxt
 
 ## generic files to ignore
 *~
