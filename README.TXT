@@ -1,12 +1,9 @@
-------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all he/she needs to know. The comments should usually include at least:
-------------------------------------------------------------------------
+Shoutcast Title Updater v2.0
 
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+This tool is used to send the send the contents of a text file to a Shoutcast server as the current song. It is designed for use with the BCX playout software to take the “single line output file” (SLOF.txt) it generates.
+
+Usage:
+java -jar SLOF.jar shoutcast_IP:port shoutcast_password path_to_slof
+
+e.g.
+java -jar SLOF.jar 127.0.0.1:8000 changeme “C:\Program Files\BCX\SLOF.txt”
