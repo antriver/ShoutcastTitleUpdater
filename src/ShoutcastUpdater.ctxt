@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=shoutcastServer\ shoutcastPassword\ inputFilename
+comment0.target=ShoutcastUpdater(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.params=
+comment1.target=void\ run()
+comment2.params=
+comment2.target=void\ updateTitleMaybe()
+comment3.params=filename
+comment3.target=java.lang.String\ getFileContents(java.lang.String)
+comment4.params=title
+comment4.target=java.lang.String\ convertFileContents(java.lang.String)
+comment5.params=title
+comment5.target=void\ setShoutcastTitle(java.lang.String)
+comment5.text=\n\ Send\ title\ to\ Shoutcast\ server\n
+comment6.params=text
+comment6.target=void\ log(java.lang.String)
+numComments=7
