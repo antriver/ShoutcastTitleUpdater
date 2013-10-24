@@ -76,7 +76,8 @@ class ShoutcastUpdater
     {
         //Replace the weird BCX seperator. The URL encoding is a gross but working way to find the seperator character
         title = URLEncoder.encode(title,"UTF-8");
-        title = title.replace("%EF%BF%BD"," - ");
+        title = title.replace("%C2%A6"," - "); //Windows 
+        title = title.replace("%EF%BF%BD"," - "); //OSX
         title = URLDecoder.decode(title,"UTF-8");
         
         String[] parts = title.split(" - ");
